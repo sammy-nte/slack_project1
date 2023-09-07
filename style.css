@@ -39,10 +39,19 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  background: url("./image/me.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: .5em;
+  background: #c6bebe60;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
 }
 
 .card-top-section--right-side {
