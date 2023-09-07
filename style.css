@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+  background: url("./image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-container {
+  width: 330px;
+  height: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 2px 4px 3px rgba(128, 128, 128, 0.274);
+  background: white;
+}
+
+.card-top-section {
+  height: 60%;
+  display: flex;
+}
+
+.card-top-section--left-side {
+  width: 40%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: url("./image/me.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: .5em;
+}
+
+.card-top-section--right-side {
+  width: 60%;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+.name {
+  font-weight: bold;
+  color: rgba(90, 98, 111, 1);
+  padding-top: 1em;
+}
+
+.track {
+  color: rgba(170, 174, 182, 1);
+  font-weight: bold;
+  padding-top: .6em;
+}
+
+.card-bottom-section {
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-bottom-section-div {
+  text-align: center;
+}
+
+.card-bottom-section-div p:first-child {
+  font-size: .8rem;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.807);
+}
+
+.card-bottom-section p:last-child{
+    font-weight: bold;
+}
+
+.button {
+  width: 90px;
+  height: 28px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 0;
+  font-weight: bold;
+  background: rgba(45, 212, 191, 1);
+  color: rgba(227, 250, 247, 1);
+  cursor: pointer;
+  transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  -moz-transition: all 350ms ease;
+  -ms-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+}
+
+.button:hover {
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}
+
+

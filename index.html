@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card-container">
+            <div class="card-top-section">
+                <div class="card-top-section--left-side">
+                </div>
+                <div class="card-top-section--right-side">
+                    <p data-testid="slackUserName" class="name">Samuel Ntewusu</p>
+                    <p data-testid="myTrack" class="track">Frontend</p>
+                </div>
+            </div>
+            <div class="card-bottom-section">
+                <div class="card-bottom-section-div">
+                    <p>Day</p>
+                    <p data-testid="currentDayOfTheWeek" id="day">Tuesday</p>
+                </div>
+                <div class="card-bottom-section-div">
+                    <p>Time (Milliseconds)</p>
+                    <p data-testid="currentUTCTime" id="time-utc"></p>
+                </div>
+                <a data-testid="githubURL" href="https://github.com/sammy-nte" target="_blank">
+                    <button class="button">GitHub</button>
+                </a>
+            </div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
